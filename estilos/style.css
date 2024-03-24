@@ -4,3 +4,111 @@
     Verde: #49a09d
     Lilás: #5f2c82
 */
+:root {
+    --cor-fundo: #5f2c82;
+    --cor-botão: #49a09d;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+body, html {
+    background-color: var(--cor-fundo);
+    height: 100vh;
+    width: 100vw;
+    
+}
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+section#login {
+    background-color: white;
+    position: absolute;
+    background-color: white;
+    margin: auto;
+    width: 250px;
+    height: 500px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.453);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+}
+
+div#imagem {
+    background: var(--cor-fundo) url(../imagens/universo.jpg);
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+}
+#formulario {
+    padding: 10px;
+    display: block;
+}
+#formulario h1 {
+    text-align: center;
+
+    padding-bottom: 0px;
+    font-size: 24px;
+}
+#formulario p {
+
+    font-size: 12px;
+    text-align: justify;
+    line-height: 17px;
+}
+/*div.input {
+    background-color: #5f2c82;
+    height: 40px;
+    width: 230px;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.campo {
+    background-color: #94CFCD;
+    display: block;
+    border: 2px solid #5f2c82;
+    height: 40px;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 5px 0ox;
+}
+#user {
+    font-size: 1.9em;
+    color: white;
+    padding: 5px;
+}
+#entrar {
+    display: block;
+    background-color: #49a09d;
+    width: 23px;
+    height: 100%;
+    border: none;
+    margin: auto;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    color: white;
+}
+#esqueci-a-senha {
+    width: 230px;
+    height: 40px;
+    background-color: white;
+    border: 1px 1px solid #94CFCD;
+    margin: auto;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+#submit {
+    margin: auto;
+}*/
