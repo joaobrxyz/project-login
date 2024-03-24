@@ -55,13 +55,10 @@ div#imagem {
 }
 #formulario h1 {
     text-align: center;
-
-    padding-bottom: 0px;
-    font-size: 24px;
+    margin-bottom: 10px;
 }
 #formulario p {
-
-    font-size: 12px;
+    font-size: 0.8em;
     text-align: justify;
     line-height: 17px;
 }
