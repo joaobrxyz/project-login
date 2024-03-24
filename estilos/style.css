@@ -31,7 +31,7 @@ section#login {
     background-color: white;
     margin: auto;
     width: 250px;
-    height: 500px;
+    height: 510px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -62,50 +62,48 @@ div#imagem {
     text-align: justify;
     line-height: 17px;
 }
-/*div.input {
-    background-color: #5f2c82;
-    height: 40px;
-    width: 230px;
-    margin: auto;
-    margin-bottom: 5px;
-    border-radius: 10px;
-}
-.campo {
-    background-color: #94CFCD;
+form > div.campo {
     display: block;
-    border: 2px solid #5f2c82;
-    height: 40px;
-    border: none;
+    background-color: var(--cor-fundo);
     width: 100%;
-    border-radius: 10px;
-    font-size: 15px;
-    margin: 5px 0ox;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
 }
-#user {
-    font-size: 1.9em;
-    color: white;
-    padding: 5px;
+form label  {
+    display: none;
 }
-#entrar {
+form > input[type=submit] {
     display: block;
-    background-color: #49a09d;
-    width: 23px;
-    height: 100%;
-    border: none;
-    margin: auto;
-    border-radius: 3px;
-    margin-bottom: 5px;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: var(--cor-botão);
     color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form > input[type=submit]:hover {
+    background-color: #2d6462;
 }
 #esqueci-a-senha {
-    width: 230px;
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
     height: 40px;
+    padding-top: 5px;
+    margin-top: 5px;
     background-color: white;
-    border: 1px 1px solid #94CFCD;
-    margin: auto;
-    border-radius: 3px;
-    margin-bottom: 5px;
+    color: #2d6462;
+    border: 1px solid var(--cor-botão);
+    text-decoration: none;
+    border-radius: 7px;
 }
-#submit {
-    margin: auto;
-}*/
+#esqueci-a-senha:hover {
+    background-color: #65d7d4;
+}
+form > a.botão > span {
+    font-size: 0.8em;
+}
